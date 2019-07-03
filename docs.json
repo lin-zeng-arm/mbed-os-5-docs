@@ -8,7 +8,7 @@
             "hidden": true,
             "type": "doxygen",
             "source": "https://github.com/ARMmbed/mbed-os",
-            "branch": "master"
+            "branch": "feature-public-headers"
         },
         {
             "title": "Mbed OS 5",
