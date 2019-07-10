@@ -73,6 +73,18 @@ jobs:
       - store_artifacts:
           path: /tmp/workspace/docs.zip
 
+  list_pages:
+    machine: true
+    steps:
+      - write_env_variables
+      - *attach_workspace
+      - run:
+          name: List all built docs pages
+          command: |
+            source /tmp/env
+            cd /tmp/workspace/artifacts/$CIRCLE_BRANCH_NO_SLASH
+            find -maxdepth 2 -type f -name '*.html' -printf '%P\n'
+
   make_live:
     executor: doc_builder
     steps:
@@ -93,6 +105,9 @@ workflows:
           requires:
             - build
       - zip_documentation:
+          requires:
+            - build
+      - list_pages:
           requires:
             - build
 #       - await_approval:
