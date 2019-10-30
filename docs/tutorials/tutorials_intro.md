@@ -82,11 +82,13 @@ And the following tutorials:
 
 | API | Examples | Tutorials |
 | --- | --- | --- |
-| EventQueue | [Chaining events from more than one queue](../apis/eventqueue.html#eventqueue-example-chaining-events-from-more-than-one-queue)<br> [Deferring from interrupt context](../apis/eventqueue.html#eventqueue-example-deferring-from-interrupt-contextl) <br> [Posting events to the queue](../apis/eventqueue.html#eventqueue-example-posting-events-to-the-queue) <br> [Shared event: deferring from interrupt context](../apis/eventqueue.html#shared-event-example-running-the-shared-queue-from-main)<br>  [Shared event: running the shared queue from main](../apis/eventqueue.html#shared-event-example-running-the-shared-queue-from-main) | [EventQueue tutorial](the-eventqueue-api.html)|
+| EventQueue | [Chaining events from more than one queue](../apis/eventqueue.html#eventqueue-example-chaining-events-from-more-than-one-queue)<br> [Deferring from interrupt context](../apis/eventqueue.html#eventqueue-example-deferring-from-interrupt-contextl) <br> [Posting events to the queue](../apis/eventqueue.html#eventqueue-example-posting-events-to-the-queue) <br> [Shared event: deferring from interrupt context](../apis/eventqueue.html#shared-event-example-running-the-shared-queue-from-main)<br>  [Shared event: running the shared queue from main](../apis/eventqueue.html#shared-event-example-running-the-shared-queue-from-main)<br> [Static event queue example](../apis/eventqueue.html#static-eventqueue-example-posting-user-allocated-events-to-the-static-queue) | [EventQueue tutorial](the-eventqueue-api.html)|
+| UserAllocatedEvent | [Static event queue example](../apis/userallocatedevent.html#static-eventqueue-example-posting-user-allocated-events-to-the-queue) | |
 | Mutex | [Mutex example](../apis/mutex.html#mutex-example) | |
 | MemoryPool | [MemoryPool example](../apis/memorypool.html#memorypool-example) | |
 | Kernel | [Example: get_ms_count()](../apis/kernel-interface-functions.html#get-ms-count-example)<br> [Example: hooks](../apis/kernel-interface-functions.html#kernel-hooks-example) | |
 | Thread | [Thread example](../apis/thread.html#thread-example)<br> [Thread example with callbacks](../apis/thread.html#thread-example-with-callbacks)<br> | |
+| ThisThread | [ThisThread example](../apis/thisthread.html#thisthread-example) | |
 | Semaphore  | [Semaphore example](../apis/semaphore.html#semaphore-example) | |
 | Mail | [Mail example](../apis/mail.html#mail-example) | |
 | EventFlags | [EventFlags example](../apis/eventflags.html#eventflags-example) | |
@@ -109,17 +111,17 @@ And the following tutorials:
 
 ### Using network socket APIs
 
-| API | Examples |
-| --- | --- |
-| Socket | [Socket example](../apis/socket.html#socket-example) |
-| UDPSocket | [UDPSocket example](../apis/udpsocket.html#udpsocket-example) |
-| TCPSocket | [TCPSocket example](../apis/tcpsocket.html#tcpsocket-example) |
-| SocketAddress | [SocketAddress example](../apis/socketaddress.html#socketaddress-example) |
-| Non-IP cellular socket | [Non-IP cellular socket example](../apis/non-ip-cellular-socket.html#cellularnonipsocket-example) |
-| DNS Resolver | [DNS Resolver example](../apis/dns-resolver.html#dns-resolver-example) |
-| TLSSocket | [TLSSocket example](../apis/tlssocket.html#tlssocket-example) |
-| DTLSSocket | [DTLSSocket example](../apis/dtlssocket.html#dtlssocket-example) |
-| SocketStats | [SocketStats example](../apis/socketstats.html#socketstats-example) |
+| API | Examples | Tutorials |
+| --- | --- | --- |
+| Socket | [Socket example](../apis/socket.html#socket-example) | |
+| UDPSocket | [UDPSocket example](../apis/udpsocket.html#udpsocket-example) | |
+| TCPSocket | [TCPSocket example](../apis/tcpsocket.html#tcpsocket-example) | |
+| SocketAddress | [SocketAddress example](../apis/socketaddress.html#socketaddress-example) | |
+| Non-IP cellular socket | [Non-IP cellular socket example](../apis/non-ip-cellular-socket.html#cellularnonipsocket-example) | |
+| DNS Resolver | [DNS Resolver example](../apis/dns-resolver.html#dns-resolver-example) | |
+| TLSSocket | [TLSSocket example](../apis/tlssocket.html#tlssocket-example) | [Secure communication tutorial](../tutorials/tls-tutorial.html) |
+| DTLSSocket | [DTLSSocket example](../apis/dtlssocket.html#dtlssocket-example) | |
+| SocketStats | [SocketStats example](../apis/socketstats.html#socketstats-example) | |
 
 ### Using network interfaces APIs
 
@@ -228,6 +230,7 @@ A [tutorial for creating and using a bootloader](../tutorials/bootloader.html), 
 <td><a href="optimizing.html">Memory optimizations tutorial</a></td>
 <td><a href="../apis/mbed-statistics.html#thread-statistics-example">Thread statistics example</a></td>
 <td><a href="../apis/mbed-statistics.html#cpu-usage-example">CPU usage example</a></td>
+<td><a href="power-optimization.html">Power optimization tutorial</a></td>
 </tr>
 <tr>
 <td><a href="../apis/mbed-statistics.html#system-information-example">System information example</a></td>

@@ -326,6 +326,9 @@
                             "path": "docs/api/rtos/EventQueue.md"
                         },
                         {
+                            "path": "docs/api/rtos/UserAllocatedEvent.md"
+                        },
+                        {
                             "path": "docs/api/rtos/MemoryPool.md"
                         },
                         {
@@ -1011,6 +1014,9 @@
                         },
                         {
                             "path": "docs/tutorials/using_apis/intro-to-lora.md"
+                        },
+                        {
+                            "path": "docs/tutorials/using_apis/connectivity/tls_tutorial.md"
                         }
                     ]
                 },
@@ -1058,6 +1064,12 @@
                         },
                         {
                             "path": "docs/tutorials/optimize/memory/runtime_stats.md"
+                        },
+                        {
+                            "path": "docs/tutorials/optimize/memory/printf.md"
+                        },
+                        {
+                            "path": "docs/tutorials/optimize/power/power_manage.md"
                         }
                     ]
                 },
@@ -1133,6 +1145,9 @@
                                 },
                                 {
                                     "path": "docs/porting/porting_full_process/demo_testing.md"
+                                },
+                                {
+                                    "path": "docs/porting/porting_full_process/integration-tests.md"
                                 }
                             ]
                         }

@@ -102,7 +102,8 @@ Please see the following sections of our documentation for more information.
 
 <h2 id="docs-updates">Recently updated documentation</h2>
 
+- The [UserAllocatedEvent](../apis/userallocatedevent.html) API reference.
+- A [power optimization tutorial](../tutorials/power-optimization.html) about measuring and reducing power consumption.
 - A [mesh tutorial](../tutorials/mesh-tutorial.html) about selecting and using a mesh protocol.
-- Guides to porting [IEEE 802.15.4 MAC driver](../porting/mac-port.html) and [IEEE 802.15.4 RF driver](../porting/6lowpan-port.html).
-- Updated instructions for [troubleshooting common issues](../tutorials/debugging.html).
-- [A tutorial for sending data to Arm Treasure Data from an Mbed OS device](../mbed-os-pelion/send-data-securely-to-arm-treasure-data.html).
+- Porting guides for the [IEEE 802.15.4 MAC](../porting/mac-port.html) and [IEEE 802.15.4 RF](../porting/6lowpan-port.html) drivers.
+- Porting guides for the [Watchdog](../porting/watchdog-port.html), [RestReason](../porting/resetreason-port.html) and [I2C](../porting/i2c-port.html) APIs.
